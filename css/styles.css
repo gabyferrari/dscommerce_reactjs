@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+html, body {
+   background-color: #E8E8E8; 
+}
+
+header {
+    background-color: #ffe500;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    color: #636363;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.line-bottom {
+     border-bottom: 1px solid #D9D9D9;
+}
+
+.btn-container-220 {
+    width: 220px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: #3483FA;
+    color: #fff;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #3483FA;
+    border: 1px solid #3483FA;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
