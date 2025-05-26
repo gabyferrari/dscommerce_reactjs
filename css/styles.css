@@ -65,8 +65,10 @@ nav {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.dsc-btn-container-220 {
+.dsc-btn-page-container {
     width: 220px;
+    display: grid;
+    grid-gap: 20px;
 }
 
 .dsc-btn {
