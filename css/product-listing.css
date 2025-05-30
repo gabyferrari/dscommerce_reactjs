@@ -8,6 +8,7 @@
 .dsc-product-listing-img {
    width: 69px;
    height: 69px;
+   display: block;
 }
 
 .dsc-product-listing-btn {
