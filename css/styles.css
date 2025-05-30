@@ -65,6 +65,10 @@ main {
     font-size: 16px;
 }
 
+.dsc-txt-left {
+    text-align: left;
+}
+
 /* ---------------------------------------------------------------------*/
 /* header styles */
 
@@ -297,9 +301,20 @@ nav a {
 }
 
 .dsc-table thead {
+    font-size: 14px;
+    height: 55px;
+    color: var(--dsc-color-font-primary);
     background-color: var(--dsc-color-card-bg);
 }
 
 .dsc-table tbody {
+    text-align: center;
+    font-size: 12px;
+    color: var(--dsc-color-font-primary);
     background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-table tbody tr {
+    height: 70px;
+    border-top: 1px solid var(--dsc-color-card-border);
 }
